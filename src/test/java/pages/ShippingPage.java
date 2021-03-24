@@ -17,6 +17,5 @@ public class ShippingPage extends BaseClass {
 
     public void clickOnCheckOutButton() throws Exception {
         myLibrary.clickElement(shippingLocator.getLocator("ShippingPage.ClickCheckOutButton"));
-
     }
 }

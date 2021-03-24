@@ -22,7 +22,7 @@ public class Hooks extends BaseClass {
         try {
             ChromeOptions options = new ChromeOptions();
             WebDriverManager.chromedriver().setup();
-            options.addArguments("--headless");
+            //options.addArguments("--headless");
             driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

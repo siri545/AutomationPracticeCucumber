@@ -18,9 +18,9 @@ public class AddToCartPage extends BaseClass {
         myLibrary.selectAndVerifyElementSelected(By.cssSelector("a[name='" + color + "']"));
     }
 
-    public void scrollToAddToCart() throws Exception {
+   /* public void scrollToAddToCart() throws Exception {
         myLibrary.scrollToElement(addToCartLocator.getLocator("AddToCart.ClickAddToCart"));
-    }
+    }*/
 
     public void clickAddCart() throws Exception {
         myLibrary.clickElement(addToCartLocator.getLocator("AddToCart.ClickAddToCart"));
