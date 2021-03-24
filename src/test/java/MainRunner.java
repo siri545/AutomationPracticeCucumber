@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         publish = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true,
-        tags = "@loginCorrect"
+        tags = "@smoke"
         //@smoke
         //@loginCorrect
         //@loginWrong
