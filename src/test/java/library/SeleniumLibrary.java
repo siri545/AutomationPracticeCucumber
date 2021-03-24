@@ -4,9 +4,6 @@ import com.google.common.io.Files;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.Augmenter;
-import org.openqa.selenium.remote.LocalFileDetector;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,7 +16,6 @@ import static org.junit.Assert.*;
 
 public class SeleniumLibrary extends BaseClass {
     final Logger logger = Logger.getLogger(SeleniumLibrary.class);
-    private boolean isRemote = false;
 
 
     public void scrollToElement(By by) {
@@ -33,9 +29,14 @@ public class SeleniumLibrary extends BaseClass {
     }
 
     public void mouseHover(By by) {
+        try{
         Actions actions = new Actions(driver);
         WebElement elem = driver.findElement(by);
         actions.moveToElement(elem).build().perform();
+        } catch (Exception e) {
+            logger.error("Error: ", e);
+            assertTrue(false);
+        }
     }
 
 
@@ -138,9 +139,6 @@ public class SeleniumLibrary extends BaseClass {
             File file = new File(filePath);
             absoluteFilePath = file.getAbsolutePath();
             WebElement fileUpload = driver.findElement(by);
-            if (isRemote) {
-                ((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
-            }
             fileUpload.sendKeys(absoluteFilePath);
         } catch (Exception e) {
             logger.error("Error: ", e);
@@ -160,9 +158,6 @@ public class SeleniumLibrary extends BaseClass {
             } else {
                 checkDirectory(filePath);
                 finalScreenshotPath = filePath + screenshotFileName + "_" + timeStamp + ".png";
-            }
-            if (isRemote) {
-                driver = new Augmenter().augment(driver);
             }
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             Files.copy(scrFile, new File(finalScreenshotPath));
