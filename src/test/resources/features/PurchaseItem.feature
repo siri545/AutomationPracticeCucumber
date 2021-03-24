@@ -27,9 +27,9 @@ Feature: Test purchase function
     Examples:
       | keyword               | results                    | quantity | size | color  | username                  | password    | massage                      |
       | Printed Chiffon Dress | 2 results have been found. | 3        | M    | Green  | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | I just order dresses         |
-      | blouse                | 1 result has been found.   | 10       | L    | White  | jj_yangyuzhen@icloud.com  | Siri-951753 | I just order blouse          |
+      #| blouse                | 1 result has been found.   | 10       | L    | White  | jj_yangyuzhen@icloud.com  | Siri-951753 | I just order blouse          |
       | dress                 | 7 results have been found. | 10       | S    | Yellow | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | I just order dress           |
-      | shirt                 | 1 result has been found.   | 9        | M    | Blue   | jj_yangyuzhen@icloud.com  | Siri-951753 | Delivery as soon as possible |
+      #| shirt                 | 1 result has been found.   | 9        | M    | Blue   | jj_yangyuzhen@icloud.com  | Siri-951753 | Delivery as soon as possible |
       | summer dress          | 4 results have been found. | 5        | L    | Black  | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | I want Tracking number       |
       | summer dress          | 4 results have been found. | 9        | M    | Orange | jj_yangyuzhen@icloud.com  | Siri-951753 | Send me Tracking number      |
       | summer dress          | 4 results have been found. | 15       | L    | Blue   | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | I want Tracking number       |

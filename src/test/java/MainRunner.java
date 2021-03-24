@@ -18,6 +18,7 @@ import org.junit.runner.RunWith;
         //@search
         //@searchWithoutLogin
         //@searchWithLogin
+        //@purchaseItem
 )
 
 

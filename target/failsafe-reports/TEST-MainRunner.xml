@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="MainRunner" time="15.094" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="MainRunner" time="110.815" tests="8" errors="0" skipped="0" failures="8">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/surefire 2021-03-23T22-13-59_345-jvmRun1 surefire1598127673118071306tmp surefire_015662013652703932083tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/surefire 2021-03-23T23-16-05_439-jvmRun1 surefire11031308577694704570tmp surefire_0705078212767964545tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/test-classes:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-java/6.10.2/cucumber-java-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-junit/6.10.2/cucumber-junit-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:"/>
@@ -27,8 +27,8 @@
     <property name="basedir" value="/Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="surefire.real.class.path" value="/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/test-classes:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-java/6.10.2/cucumber-java-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-core/6.10.2/cucumber-core-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-gherkin/6.10.2/cucumber-gherkin-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.2/cucumber-gherkin-messages-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/messages/14.0.1/messages-14.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-plugin/6.10.2/cucumber-plugin-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/docstring/6.10.2/docstring-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/html-formatter/12.0.0/html-formatter-12.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/create-meta/3.0.0/create-meta-3.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/cucumber/cucumber-junit/6.10.2/cucumber-junit-6.10.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/service/auto-service-annotations/1.0-rc7/auto-service-annotations-1.0-rc7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/service/auto-service/1.0-rc7/auto-service-1.0-rc7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/auto/auto-common/0.10/auto-common-0.10.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v86/4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v87/4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v88/4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v89/4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-buffer/4.1.58.Final/netty-buffer-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec-http/4.1.58.Final/netty-codec-http-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec/4.1.58.Final/netty-codec-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-handler/4.1.58.Final/netty-handler-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-common/4.1.58.Final/netty-common-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.58.Final/netty-transport-native-kqueue-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.58.Final/netty-transport-native-unix-common-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport/4.1.58.Final/netty-transport-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-resolver/4.1.58.Final/netty-resolver-4.1.58.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-api/1.0.0/opentelemetry-api-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-context/1.0.0/opentelemetry-context-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.0.0/opentelemetry-exporter-logging-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.0.0-alpha/opentelemetry-sdk-metrics-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.0.0/opentelemetry-sdk-common-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.0.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.0.0/opentelemetry-sdk-trace-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.0.0-alpha/opentelemetry-api-metrics-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.0.0/opentelemetry-sdk-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.0.0-alpha/opentelemetry-semconv-1.0.0-alpha.jar:/Users/siripornsingkhamsirikul/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/asynchttpclient/async-http-client/2.12.2/async-http-client-2.12.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.2/async-http-client-netty-utils-2.12.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-codec-socks/4.1.53.Final/netty-codec-socks-4.1.53.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-handler-proxy/4.1.53.Final/netty-handler-proxy-4.1.53.Final.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-epoll/4.1.53.Final/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.53.Final/netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/siripornsingkhamsirikul/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/siripornsingkhamsirikul/.m2/repository/io/github/bonigarcia/webdrivermanager/4.1.0/webdrivermanager-4.1.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/siripornsingkhamsirikul/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.1/httpcore5-h2-5.0.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.jar:/Users/siripornsingkhamsirikul/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -41,6 +41,7 @@
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Zulu15.29+15-CA"/>
     <property name="localRepository" value="/Users/siripornsingkhamsirikul/.m2/repository"/>
+    <property name="cucumber.options" value="-tags @loginCorrect"/>
     <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
     <property name="java.io.tmpdir" value="/var/folders/bt/5mrdvm916c9cxjbkg8_7kyzm0000gn/T/"/>
     <property name="java.version" value="15.0.2"/>
@@ -55,29 +56,554 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="User login using correct info #1" classname="Test login function" time="7.352">
+  <testcase name="User purchase item #1" classname="Test purchase function" time="25.702">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:16:30 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:16:30 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 2021032323163055
+2021-03-23 23:16:30 INFO  SeleniumLibrary:201 - Directories are created....
+2021-03-23 23:16:31 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_2021032323163055.png
+]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 25576
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 46953
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 23, 2021 10:14:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 23, 2021 11:16:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 23, 2021 10:14:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 23, 2021 11:16:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 89
 ]]></system-err>
   </testcase>
-  <testcase name="User login using correct info #2" classname="Test login function" time="6.115">
+  <testcase name="User purchase item #2" classname="Test purchase function" time="7.704">
+    <failure message="expected:&lt;[My Store]&gt; but was:&lt;[508 Resource Limit Is Reached]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[My Store]> but was:<[508 Resource Limit Is Reached]>
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:16:38 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231638463
+2021-03-23 23:16:38 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231638463.png
+]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 2451
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32934
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 23, 2021 10:14:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 23, 2021 11:16:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Mar 23, 2021 10:14:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 23, 2021 11:16:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #3" classname="Test purchase function" time="20.567">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:16:58 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:16:58 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231658888
+2021-03-23 23:16:59 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231658888.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 49074
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:16:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:16:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #4" classname="Test purchase function" time="12.352">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:17:11 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:17:11 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231711199
+2021-03-23 23:17:11 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231711199.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 4912
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:17:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:17:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #5" classname="Test purchase function" time="10.335">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:17:21 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:17:21 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231721528
+2021-03-23 23:17:22 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231721528.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 38595
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:17:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:17:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #6" classname="Test purchase function" time="10.393">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:17:31 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:17:31 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231731945
+2021-03-23 23:17:32 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231731945.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 6348
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:17:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:17:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #7" classname="Test purchase function" time="10.188">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:17:42 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:17:42 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231742176
+2021-03-23 23:17:42 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231742176.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 3181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:17:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:17:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 89
+]]></system-err>
+  </testcase>
+  <testcase name="User purchase item #8" classname="Test purchase function" time="10.355">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+]]></failure>
+    <system-out><![CDATA[2021-03-23 23:17:52 ERROR SeleniumLibrary:30 - Error: 
+java.lang.IllegalArgumentException: Argument is of an illegal type: org.openqa.selenium.By$ById
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:85)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:552)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/library.SeleniumLibrary.scrollToElement(SeleniumLibrary.java:28)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/pages.AddToCartPage.scrollToAddToCart(AddToCartPage.java:22)
+	at AutomationPracticeCucumber@1.0-SNAPSHOT/stepDefinitions.AddToCartSteps.user_click_on_add_to_cart_button(AddToCartSteps.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:364)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:237)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+2021-03-23 23:17:52 INFO  SeleniumLibrary:185 - getCurrentTime() ---> 20210323231752537
+2021-03-23 23:17:53 INFO  SeleniumLibrary:174 - Screenshot location: /Users/siripornsingkhamsirikul/IdeaProjects/AutomationPracticeCucumber/target/screenshots/User purchase item_20210323231752537.png
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 89.0.4389.23 (since Chrome 89 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/siripornsingkhamsirikul/.m2/repository/webdriver/chromedriver/mac64/89.0.4389.23/chromedriver
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 44466
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 23, 2021 11:17:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 23, 2021 11:17:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 89
 ]]></system-err>
   </testcase>
