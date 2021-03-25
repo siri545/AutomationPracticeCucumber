@@ -18,7 +18,6 @@ public class SeleniumLibrary extends BaseClass {
     final Logger logger = Logger.getLogger(SeleniumLibrary.class);
 
 
-    /// add assertNotNull
     public WebElement waitForElementVisibility(By by) {
         WebElement elem = null;
         try {
@@ -32,7 +31,6 @@ public class SeleniumLibrary extends BaseClass {
         return elem;
     }
 
-    // created this method
     public void getTxtWithoutVerifyPrint(By by, String expectedText) {
         try {
             String actualText = driver.findElement(by).getText();
@@ -43,7 +41,6 @@ public class SeleniumLibrary extends BaseClass {
         }
     }
 
-    // created this method
     public void getTxtWithPrintNoVerify(By by) {
         try {
             String actualText = driver.findElement(by).getText();
@@ -54,7 +51,6 @@ public class SeleniumLibrary extends BaseClass {
         }
     }
 
-    //create this method
     public void selectAndVerifyElementSelected(By by) {
         try {
             WebElement elem = driver.findElement(by);
