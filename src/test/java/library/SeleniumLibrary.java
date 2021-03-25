@@ -18,28 +18,6 @@ public class SeleniumLibrary extends BaseClass {
     final Logger logger = Logger.getLogger(SeleniumLibrary.class);
 
 
-    public void scrollToElement(By by) {
-        try {
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            js.executeScript("arguments[0].scrollIntoView();", by);
-        } catch (Exception e) {
-            logger.error("Error: ", e);
-            assertTrue(false);
-        }
-    }
-
-    public void mouseHover(By by) {
-        try{
-        Actions actions = new Actions(driver);
-        WebElement elem = driver.findElement(by);
-        actions.moveToElement(elem).build().perform();
-        } catch (Exception e) {
-            logger.error("Error: ", e);
-            assertTrue(false);
-        }
-    }
-
-
     /// add assertNotNull
     public WebElement waitForElementVisibility(By by) {
         WebElement elem = null;
@@ -100,11 +78,21 @@ public class SeleniumLibrary extends BaseClass {
         }
     }
 
-
     public void clickElement(By by) {
         try {
             WebElement elem = driver.findElement(by);
             elem.click();
+        } catch (Exception e) {
+            logger.error("Error: ", e);
+            assertTrue(false);
+        }
+    }
+
+    public void mouseHover(By by) {
+        try{
+            Actions actions = new Actions(driver);
+            WebElement elem = driver.findElement(by);
+            actions.moveToElement(elem).build().perform();
         } catch (Exception e) {
             logger.error("Error: ", e);
             assertTrue(false);
@@ -117,6 +105,16 @@ public class SeleniumLibrary extends BaseClass {
             WebElement elem = driver.findElement(by);
             Select dropdown = new Select(elem);
             dropdown.selectByVisibleText(text);
+        } catch (Exception e) {
+            logger.error("Error: ", e);
+            assertTrue(false);
+        }
+    }
+
+    public void scrollToElement(By by) {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].scrollIntoView();", by);
         } catch (Exception e) {
             logger.error("Error: ", e);
             assertTrue(false);

@@ -12,13 +12,17 @@ import org.junit.runner.RunWith;
         monochrome = true,
         tags = "@smoke"
         //@smoke
+        //@login
         //@loginCorrect
         //@loginWrong
-        //@login
         //@search
         //@searchWithoutLogin
         //@searchWithLogin
+        //@purchase
         //@purchaseItem
+        //@contactUs
+        //@contactUsPage
+        //@contactUsFile
 )
 
 

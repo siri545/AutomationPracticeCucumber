@@ -4,7 +4,6 @@ stepDefinitions/LandingSteps.class
 pages/SummaryPage.class
 pages/AddToCartPage.class
 pages/ContactUsPage.class
-library/PropertiesManager.class
 stepDefinitions/LoginSteps.class
 pages/AddressPage.class
 stepDefinitions/AddressSteps.class
