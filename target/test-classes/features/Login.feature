@@ -14,7 +14,7 @@ Feature: Test login function
     Examples:
       | username                  | password    | accountName |
       | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | Jen Yang    |
-      | jj_yangyuzhen@icloud.com  | Siri-951753 | Siri Sing   |
+      | jj_yangyuzhen@icloud.com  | Siri-951753 | Siri Singg   |
 
      #LangingPage
      #LoginPage
