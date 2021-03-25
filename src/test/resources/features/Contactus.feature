@@ -35,12 +35,12 @@ Feature: Test contact us function
     Then User should see warning error massage "<warning>"
 
     Examples:
-      | Heading          | email                     | reference | massage                | warning                                         |
-      | Customer service |                           |           |                        | Invalid email address.                          |
-      | Webmaster        |                           | 12345     |                        | Invalid email address.                          |
-      | Customer service | jj_yangyuzhen@hotmail.com |           |                        | The message cannot be blank.                    |
-      | Webmaster        |                           | 12345     | I want my money back   | Invalid email address.                          |
-      | Customer service | jj_yangyuzhen@hotmail.com | 12345     |                        | The message cannot be blank.                    |
+      | Heading          | email                     | reference | massage              | warning                      |
+      | Customer service |                           |           |                      | Invalid email address.       |
+      | Webmaster        |                           | 12345     |                      | Invalid email address.       |
+      | Customer service | jj_yangyuzhen@hotmail.com |           |                      | The message cannot be blank. |
+      | Webmaster        |                           | 12345     | I want my money back | Invalid email address.       |
+      | Customer service | jj_yangyuzhen@hotmail.com | 12345     |                      | The message cannot be blank. |
 
      #LangingPage
      #ContactPage
