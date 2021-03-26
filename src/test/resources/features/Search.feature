@@ -5,7 +5,7 @@ Feature: Test search function
     Given Navigate to automation practice website
     Then Verify landing page display
 
-  @searchWithoutLogin
+  @searchWithoutLogin   #Test Cases 6 - 8
   Scenario Outline: User search for item without login
     Given User search for item "<keyword>"
     Then User should see search "<results>"
@@ -21,7 +21,8 @@ Feature: Test search function
     #LangingPage
     #SearchResultsPage
 
-  @searchWithLogin
+
+  @searchWithLogin    #Test Cases 9 - 11
   Scenario Outline: User search for item after login
     Given Click on Sign in button
     And User try to sign in using "<username>" and "<password>"

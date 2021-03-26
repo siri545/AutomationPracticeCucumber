@@ -5,7 +5,7 @@ Feature: Test login function
     Given Navigate to automation practice website
     Then Verify landing page display
 
-  @loginCorrect
+  @loginCorrect  #Test Cases 1
   Scenario Outline: User login using correct info
     Given Click on Sign in button
     And User try to sign in using "<username>" and "<password>"
@@ -21,7 +21,7 @@ Feature: Test login function
      #MyAccountPage
 
 
-  @loginWrong
+  @loginWrong  #Test Cases 2 - 5
   Scenario Outline: User login using wrong info
     Given Click on Sign in button
     And User try to sign in using "<username>" and "<password>"

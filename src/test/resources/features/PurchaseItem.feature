@@ -6,7 +6,7 @@ Feature: Test purchase function
     Then Verify landing page display
 
 
-  @purchaseItem
+  @purchaseItem   #Test Cases 22 - 25
   Scenario Outline: User purchase item
     Given User search for item "<keyword>"
     Then User should see search "<results>"

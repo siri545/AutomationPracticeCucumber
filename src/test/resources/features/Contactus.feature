@@ -5,7 +5,7 @@ Feature: Test contact us function
     Given Navigate to automation practice website
     Then Verify landing page display
 
-  @contactUsPage
+  @contactUsPage    #Test Cases 12 - 15
   Scenario Outline: User contact customer service and filled up all the filed
     Given User click on contact us button
     And User land on contact us page
@@ -22,9 +22,10 @@ Feature: Test contact us function
       | Webmaster        | jj_yangyuzhen@icloud.com  | 098375645 | Please contact me back |
 
     #LangingPage
-    #ContactPage
+    #ContactUsPage
 
-  @contactUsFile
+
+  @contactUsFile    #Test Cases 16 - 21
   Scenario Outline: User contact customer service without filled up all the filed
     Given User click on contact us button
     And User land on contact us page
@@ -43,4 +44,4 @@ Feature: Test contact us function
       | Customer service | jj_yangyuzhen@hotmail.com | 12345     |                      | The message cannot be blank. |
 
      #LangingPage
-     #ContactPage
+     #ContactUsPage

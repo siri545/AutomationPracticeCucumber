@@ -5,7 +5,7 @@ Feature: Test login function
     Given Navigate to automation practice website
     Then Verify landing page display
 
-  @loginCorrect
+  @loginCorrect  #Test Cases 1
   Scenario Outline: User login using correct info
     Given Click on Sign in button
     And User try to sign in using "<username>" and "<password>"
@@ -14,14 +14,14 @@ Feature: Test login function
     Examples:
       | username                  | password    | accountName |
       | jj_yangyuzhen@hotmail.com | Jenmoh-2522 | Jen Yang    |
-      | jj_yangyuzhen@icloud.com  | Siri-951753 | Siri Singg   |
+      | jj_yangyuzhen@icloud.com  | Siri-951753 | Siri Sing   |
 
      #LangingPage
      #LoginPage
      #MyAccountPage
 
 
-  @loginWrong
+  @loginWrong  #Test Cases 2 - 5
   Scenario Outline: User login using wrong info
     Given Click on Sign in button
     And User try to sign in using "<username>" and "<password>"
